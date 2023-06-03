@@ -1,0 +1,359 @@
+/* змінні */
+
+:root {
+  --text-color: #434455;
+  --backgr-color: #ffffff;
+  --t-color--: #4d5ae5;
+  --color--: #2e2f42;
+  --too-color--: #f4f4fd;
+  --next-color--: #404bbf;
+  --butt-color--: #e7e9fc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--backgr-color);
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/* шапка сайта */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.heads {
+  align-items: center;
+  padding: 0 15px;
+  display: flex;
+}
+.navigat {
+  display: flex;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.web {
+  display: inline-block;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--t-color--);
+  text-decoration: none;
+  line-height: 1.17;
+  margin-right: 76px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+}
+.studio {
+  color: var(--color--);
+}
+.head {
+  gap: 40px;
+  display: flex;
+}
+.list {
+  list-style: none;
+  gap: 40px;
+  display: flex;
+}
+.list-it:hover,
+.list-it:focus {
+  color: var(--next-color--);
+}
+.list-it {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color--);
+  padding: 24px 0;
+}
+.addss {
+  font-style: normal;
+  margin-left: auto;
+}
+.address:hover,
+.address:focus {
+  color: #404bbf;
+}
+.address {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* кнопка */
+
+.first-sec {
+  background-color: var(--color--);
+  padding: 188px 0;
+}
+.head-butt {
+  display: flex;
+  flex-direction: column;
+}
+.header-first {
+  padding: 0 auto;
+  max-width: 496px;
+  color: var(--backgr-color);
+  font-size: 52px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+.button-first:hover,
+.button-first:focus {
+  background-color: var(--next-color--);
+}
+.button-first {
+  font-family: inherit;
+  background-color: var(--t-color--);
+  color: var(--backgr-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* наші принципи */
+
+.second-li {
+  gap: 24px;
+}
+.second-sec {
+  padding: 120px 0;
+}
+.li-items {
+  width: calc((100% - 72px) / 4);
+}
+.last {
+  margin-right: 0;
+}
+.header-sec {
+  visibility: hidden;
+}
+.header-third {
+  color: var(--color--);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.third-h {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* що ми робимо */
+
+.third-sec {
+  padding-bottom: 120px;
+}
+.doing {
+  display: block;
+  flex-direction: column;
+}
+.header-four {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color--);
+  text-align: center;
+  margin-bottom: 72px;
+}
+.third {
+  gap: 24px;
+  align-items: center;
+}
+.thidr-li-it {
+  width: calc((100% - 48px) / 3);
+}
+/* наша команда */
+
+.team {
+  background-color: var(--too-color--);
+  padding: 120px 0;
+}
+.we-team {
+  flex-direction: column;
+}
+.team-ul {
+  gap: 24px;
+}
+.four-list {
+  background-color: var(--backgr-color);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.name {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color--);
+  background-color: var(--backgr-color);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.job {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--backgr-color);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.name-posit {
+  padding: 32px 16px;
+}
+
+/*  низ*/
+
+.bott {
+  background-color: var(--color--);
+  padding: 100px 0;
+}
+.foot {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.webs {
+  text-transform: uppercase;
+  color: var(--t-color--);
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+}
+.boot-p {
+  color: var(--too-color--);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.studioi {
+  color: var(--too-color--);
+}
+
+/* portfolio */
+/* основна частина */
+
+.port-sec {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.portf-cont {
+  flex-direction: column;
+}
+.button-portf {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--t-color--);
+  background-color: var(--too-color--);
+  cursor: pointer;
+}
+.photo {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  display: flex;
+}
+.photo-li li {
+  width: calc((100% - 48px) / 3);
+  flex-wrap: wrap;
+}
+.photo-a {
+  padding: 32px 16px;
+  border: 1px solid var(--butt-color--);
+  border-top: none;
+}
+.header-third-p {
+  color: var(--color--);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.button-portf:hover,
+.button-portf:focus {
+  color: var(--backgr-color);
+  background-color: var(--next-color--);
+  border: 1px solid transparent;
+}
+.buttonns {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+}
+.button-portf {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--butt-color--);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
