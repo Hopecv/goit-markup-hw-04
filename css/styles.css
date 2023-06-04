@@ -279,7 +279,7 @@ img {
   gap: 24px;
   width: 232px;
   justify-content: center;
-  }
+}
 
 .social-list-link:hover,
 .social-list-link:focus {
@@ -423,6 +423,11 @@ img {
 .portf-cont {
   flex-direction: column;
 }
+.button-portf:hover,
+.button-portf:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .button-portf {
   font-family: inherit;
   font-weight: 500;
@@ -442,6 +447,14 @@ img {
 .photo-li li {
   width: calc((100% - 48px) / 3);
   flex-wrap: wrap;
+}
+ 
+.photo-list:hover,
+.photo-list:focus{
+  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.photo-list{
+  display: block;
 }
 .photo-a {
   padding: 32px 16px;
