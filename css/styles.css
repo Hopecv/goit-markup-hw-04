@@ -323,17 +323,15 @@ img {
   width: calc((100% - 120px) / 6);
   height: 88px;
   margin: 0 auto;
-  display: flex;
-}
+  display: block;
+  flex-wrap: wrap;
+ }
 .custom-link {
-  width: 100%;
+    width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
-  display: flex;
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  color: var(--new-color--);
+   color: var(--new-color--);
 }
 .custom-link:hover {
   border-color: #404bbf;
