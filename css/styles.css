@@ -304,7 +304,7 @@ img {
 /* new section */
 
 .customers-sect {
- padding-top: 120px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -325,13 +325,13 @@ img {
   margin: 0 auto;
   display: block;
   flex-wrap: wrap;
- }
+}
 .custom-link {
-    width: 100%;
+  width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-   color: var(--new-color--);
+  color: var(--new-color--);
 }
 .custom-link:hover {
   border-color: #404bbf;
