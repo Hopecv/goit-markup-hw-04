@@ -355,8 +355,7 @@ img {
 .foot {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
-}
+ }
 .foot-first-div {
   margin-right: 120px;
 }
