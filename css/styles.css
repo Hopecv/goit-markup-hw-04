@@ -390,6 +390,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.social-list-links:focus,
+.social-list-links:hover {
+  background-color: #31d0aa;
+}
 .worker-svg {
   gap: 16px;
 }
