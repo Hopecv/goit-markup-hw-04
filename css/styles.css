@@ -347,6 +347,7 @@ img {
   width: 104px;
   height: 56px;
   margin: 16px 32px;
+  fill: currentColor;
 }
 /*  низ*/
 
@@ -356,6 +357,8 @@ img {
 }
 .foot {
   display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 .webs {
   text-transform: uppercase;
