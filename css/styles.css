@@ -117,13 +117,13 @@ img {
 /* кнопка */
 
 .first-sec {
-  background-color: var(--color--);
-  padding: 188px 0;
+  background-color: var(--t-color--);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1686528000&Signature=flhWDfUFEb-4BhEc~PbGUhIJVm8MM2gBEUX3JYaJ3UIuVVkGOt1rS17OqytUdzK9toiFluM7x6G0nsS3tuua6qlFm7M~NreKjooFZAFV5Z0X9nq11ifBMn7xmGKt9k8FZJt-ADlXd3zVCnfkPjJq-uVT9kc5b1wbJxvIax1sdbJ2EiAK0ZffTxqpWO2TFteYE~UOVoBGtkDqzcCoJDo6ia9O5mLxf~UrfjhL7tEz0-auZKwWnFVUXQjPQWdA30XVA3TmUb1XPz7m~bdG4lHHFV4kdybCZ47uyQXOWRzLwLquCO12EfFKD3zOFb7l3TAzPrIjqjoG8nx7DGowwubwVA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    url(../images/people-office.jpg);
+  padding: 188px 0;
   max-width: 1440px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,7 +178,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .svg-icon {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,9 +187,7 @@ img {
   margin-bottom: 8px;
 }
 .svg-prinsp {
-  width: 64px;
-  height: 64px;
-}
+  
 .last {
   margin-right: 0;
 }
