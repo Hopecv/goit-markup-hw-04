@@ -360,6 +360,9 @@ img {
   align-items: baseline;
   margin-right: 120px;
 }
+.foot-first-div {
+  margin-right: 120px;
+}
 .webs {
   text-transform: uppercase;
   color: var(--t-color--);
@@ -377,13 +380,18 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-right: 120px;
 }
 .sotial-header {
   color: #ffffff;
   font-family: "Roboto";
   font-size: 16px;
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.worker-svg {
+  gap: 16px;
 }
 .studioi {
   color: var(--too-color--);
