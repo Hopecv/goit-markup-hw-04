@@ -355,7 +355,7 @@ img {
 .foot {
   display: flex;
   align-items: baseline;
- }
+}
 .foot-first-div {
   margin-right: 120px;
 }
@@ -403,7 +403,7 @@ img {
   width: 40px;
   height: 40px;
 }
-.worker-svg-bottom{
+.worker-svg-bottom {
   gap: 16px;
 }
 .list-svg {
@@ -450,12 +450,13 @@ img {
   width: calc((100% - 48px) / 3);
   flex-wrap: wrap;
 }
- 
+
 .photo-list:hover,
-.photo-list:focus{
-  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.photo-list:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.photo-list{
+.photo-list {
   display: block;
 }
 .photo-a {
