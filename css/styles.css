@@ -344,10 +344,7 @@ img {
   color: #404bbf;
 }
 .customers-svg {
-  width: 104px;
-  height: 56px;
-  margin: 16px 32px;
-  fill: currentColor;
+   fill: currentColor;
 }
 /*  низ*/
 
@@ -394,8 +391,16 @@ img {
 .social-list-links:hover {
   background-color: #31d0aa;
 }
+.custom-list{
+  width: 40px;
+  height: 40px;
+}
 .worker-svg {
   gap: 16px;
+}
+.list-svg{
+  width: 40px;
+  height: 40px;
 }
 .studioi {
   color: var(--too-color--);
