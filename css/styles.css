@@ -44,6 +44,8 @@ img {
 /* шапка сайта */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .heads {
   align-items: center;
@@ -122,8 +124,10 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url("https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1686528000&Signature=flhWDfUFEb-4BhEc~PbGUhIJVm8MM2gBEUX3JYaJ3UIuVVkGOt1rS17OqytUdzK9toiFluM7x6G0nsS3tuua6qlFm7M~NreKjooFZAFV5Z0X9nq11ifBMn7xmGKt9k8FZJt-ADlXd3zVCnfkPjJq-uVT9kc5b1wbJxvIax1sdbJ2EiAK0ZffTxqpWO2TFteYE~UOVoBGtkDqzcCoJDo6ia9O5mLxf~UrfjhL7tEz0-auZKwWnFVUXQjPQWdA30XVA3TmUb1XPz7m~bdG4lHHFV4kdybCZ47uyQXOWRzLwLquCO12EfFKD3zOFb7l3TAzPrIjqjoG8nx7DGowwubwVA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
-
+  max-width: 1440px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .head-butt {
   display: flex;
@@ -174,10 +178,14 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .svg-icon {
-  margin: 24px 100px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .svg-prinsp {
   width: 64px;
@@ -268,6 +276,7 @@ img {
 .worker-svg {
   gap: 24px;
   width: 232px;
+  justify-content: center;
 }
 .social-list-link {
   display: flex;
